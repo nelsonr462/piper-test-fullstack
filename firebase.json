@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": "app"
+        
+      }
+    ],
+    
+    "headers": [ {
+     "source": "./@(js|css|lib)/*.gz",
+     "headers": [{
+       "key": "Content-Encoding",
+       "value": "gzip"
+     }]
+    }]
+  }
+}

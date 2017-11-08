@@ -1,0 +1,13 @@
+{
+  "name": "piper-test-fullstack",
+  "version": "1.0.0",
+  "description": "Basic system to validate MNIST data (http://yann.lecun.com/exdb/mnist/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "firebase serve --only functions,hosting -o $IP -p 8081",
+    "load-data": "node ./functions/data/load-data.js",
+    "clear-database": "node ./functions/data/clear-database.js"
+  },
+  "author": "Nelson Ramirez",
+  "license": "ISC"
+}

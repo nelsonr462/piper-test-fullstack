@@ -1,0 +1,218 @@
+[debug] [2017-11-08T12:36:25.632Z] ----------------------------------------------------------------------
+[debug] [2017-11-08T12:36:25.635Z] Command:       /home/ubuntu/.nvm/versions/node/v6.11.1/bin/node /home/ubuntu/.nvm/versions/node/v6.11.1/bin/firebase serve --only functions,hosting -o 0.0.0.0 -p 8081
+[debug] [2017-11-08T12:36:25.636Z] CLI Version:   3.14.0
+[debug] [2017-11-08T12:36:25.636Z] Platform:      linux
+[debug] [2017-11-08T12:36:25.636Z] Node Version:  v6.11.1
+[debug] [2017-11-08T12:36:25.636Z] Time:          Wed Nov 08 2017 12:36:25 GMT+0000 (UTC)
+[debug] [2017-11-08T12:36:25.636Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-08T12:36:25.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-08T12:36:25.653Z] > authorizing via signed-in user
+[debug] [2017-11-08T12:36:25.656Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/piper-test-d3845  
+ Wed Nov 08 2017 12:36:25 GMT+0000 (UTC)
+[debug] [2017-11-08T12:36:25.986Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-08T12:36:25.988Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/piper-test-d3845/tokens  
+ Wed Nov 08 2017 12:36:25 GMT+0000 (UTC)
+[debug] [2017-11-08T12:36:26.268Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ubuntu/workspace/piper-test-fullstack'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-08T12:36:26.620Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/piper-test-d3845  
+ Wed Nov 08 2017 12:36:26 GMT+0000 (UTC)
+[debug] [2017-11-08T12:36:26.621Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/piper-test-d3845/apiKeys  
+ Wed Nov 08 2017 12:36:26 GMT+0000 (UTC)
+[debug] [2017-11-08T12:36:26.622Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/piper-test-d3845  
+ Wed Nov 08 2017 12:36:26 GMT+0000 (UTC)
+[debug] [2017-11-08T12:36:26.685Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-08T12:36:26.798Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-08T12:36:26.800Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/287200331604/clients/_:getWebAppConfig  
+ Wed Nov 08 2017 12:36:26 GMT+0000 (UTC)
+[debug] [2017-11-08T12:36:26.802Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-08T12:36:27.143Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:8081
+
+[info] ✔  functions: app: http://localhost:8082/piper-test-d3845/us-central1/app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/getBatch to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
+[info] [hosting] Rewriting /api/verifyImage to local function app
